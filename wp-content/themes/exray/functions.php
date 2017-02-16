@@ -21,7 +21,19 @@ require ('functions/exray-theme-template.php');
 require ('functions/exray-theme-stylesheet.php');
 require ('functions/exray-theme-customizer.php');
 require('functions/exray-theme-banner.php');
+add_theme_support( 'custom-header', array(
+			// Text color and image (empty to use none).
+			'default-text-color'     => 'FE6E41',
+			
+			// Set height and width, with a maximum value for the width.
+			'height'                 => 250,
+			'width'                  => 1500,
+			'max-width'              => 1500,
 
+			// Support flexible height and width.
+			'flex-height'            => false,
+			'flex-width'             => false
+		) ); 
 add_action( 'customize_register', 'exray_load_customize_controls', 0 );
 
 function exray_load_customize_controls() {

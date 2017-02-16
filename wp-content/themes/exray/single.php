@@ -24,7 +24,7 @@
 					<div class="entry-content">	
 				
 						<?php the_content(); ?>
-							
+							<span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><em><strong><span class="short_text"><span class="hps"><strong>RESERVASI / DISCUSS PROGRAM FOR FAIR PRICE! Please Send Email direct:&nbsp;<a href="mailto:int.anton09@gmail.com">int.anton09@gmail.com</a>&nbsp;and Cc : bromoijentrans@yahoo.com</strong></span></span></strong></em></span>
 					</div>
 													  
 						<?php if(has_tag()) : ?>

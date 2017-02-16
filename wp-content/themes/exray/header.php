@@ -72,7 +72,7 @@
                         <!-- End container -->
                     </div> 
                     <!-- End top-menu-container -->
-                        <img src="https://nnkq.files.wordpress.com/2012/02/img_8775-panoramacropmaster.jpg"/>
+                        <img src="<?php echo get_header_image(); ?>"/>
              
                     <!-- End container -->
                     <div class="main-menu-container">
